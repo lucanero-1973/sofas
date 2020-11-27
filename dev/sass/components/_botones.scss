@@ -1,0 +1,30 @@
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* BOTONES */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+// Placeholder en SASS
+%btn {
+    padding: $padding-btn;
+    display: inline-block;
+    background: $color-babyBlue;
+    border-radius: $border-radius;
+    color: $color-white;
+    align-self: flex-end;
+    &:hover {
+        border: convertir(5) solid $color-darkBlue;
+        color: $color-darkBlue;
+    }
+}
